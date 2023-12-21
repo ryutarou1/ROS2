@@ -16,3 +16,6 @@ ROS2を使用したlistenerとTalkerのプロジェクトです。Listenerは"co
 ## インストール方法
 
 ## ライセンス
+* このソフトウェアパッケージは三条項BSDライセンスのもと、再頒布および使用が許可されています。
+* This Softwere Package allowed Redistribution and Use by GPL 3.0
+©2023 kanno ryutaro
