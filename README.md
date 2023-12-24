@@ -35,7 +35,13 @@ $ python3 listener.py
 [INFO] [1703389374.805550151] [listener]: Listen: 88
 ```
 
-## 動作要件
+## 実行環境
+Python 3
+
+## テスト環境
+Ubuntu 20.04.6 LTS (GNU/Linux 5.10.102.1-microsoft-standard-WSL2 x86_64)
+
+## 必要なソフトウェア
 
 ## ライセンス
 * このソフトウェアパッケージは三条項BSDライセンスのもと、再頒布および使用が許可されています。
