@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2023 kanno ryutaro
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-import rclpyi
+import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int16
 
