@@ -1,7 +1,7 @@
-# ROS2 Listener and Talker
+# ROS2 Talker and Listener 
 
 ## 概要
-ROS2を使用したTalkerとlistenerのプロジェクトです。Talkerは"countup"トピックにInt16メッセージを定期的にパブリッシュし、データを1ずつ増やします。Listenerは"countup"という>トピックからInt16メッセージを購読し、そのデータをログに表示します。
+ROS2を使用したTalkerとlistenerのプロジェクトです。Talkerは"countup"トピックにInt16メッセージを定期的にパブリッシュし、データを1ずつ増やします。Listenerは"countup"というトピックからInt16メッセージを購読し、そのデータをログに表示します。
 
 ## Talker
 
@@ -12,7 +12,7 @@ cd
 cd ~/ros2_ws/src/mypkg/mypkg
 python3 talker.py
 ```
-上記のコマンドを打つことによりTalkerのプロジェクトを使用することができます
+上記のコマンドを打つことによりTalkerのプロジェクトを使用することができます。
 
 ##  Listener
 
