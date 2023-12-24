@@ -23,6 +23,7 @@ cd
 cd ~/ros2_ws/src/mypkg/mypkg
 python3 listener.py
 ```
+
 ###　動作例
 ```
 $ python3 listener.py
