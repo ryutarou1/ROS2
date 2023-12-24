@@ -18,7 +18,8 @@ python3 talker.py
 
 ### 使用方法
 Talkerのプロジェクトを使用した状態で、Talkerのプロジェクトとは違う新しいウィンドウを開きます。
-```python3 
+```python3
+cd 
 cd ~/ros2_ws/src/mypkg/mypkg
 python3 listener.py
 ```
@@ -35,8 +36,8 @@ $ python3 listener.py
 ## 動作要件
 
 ## ライセンス
-* このソフトウェアパッケージは三条項BSDライセンスのもと、再頒布および使用が>許可されています。
-*このパッケージのコードは、下記のスライド（CC-BY-SA 4.0by Ryuich Ueda)のものを、本人の許可を得て自身の著作したものです。r
+* このソフトウェアパッケージは三条項BSDライセンスのもと、再頒布および使用が許可されています。
+* このパッケージのコードは、下記のスライド（CC-BY-SA 4.0by Ryuich Ueda)のものを、本人の許可を得て自身の著作したものです。r
 https://ryuichiueda.github.io/my_slides/robosys_2022/lesson8.html#/
 https://ryuichiueda.github.io/my_slides/robosys_2022/lesson9.html#/
 https://ryuichiueda.github.io/my_slides/robosys_2022/lesson11.html#/
