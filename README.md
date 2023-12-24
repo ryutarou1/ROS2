@@ -23,6 +23,7 @@ cd
 cd ~/ros2_ws/src/mypkg/mypkg
 python3 listener.py
 ```
+上記のコマンドを打つことによりListenerのプロジェクトを使用することができます。
 
 ### 動作例
 ```
