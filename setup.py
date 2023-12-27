@@ -1,6 +1,7 @@
 from setuptools import setup
 import os
 from glob import glob
+
 package_name = 'mypkg'
 
 setup(
@@ -18,7 +19,7 @@ setup(
     maintainer='ryu',
     maintainer_email='rkanno1014@yahoo.co.jp',
     description='a package for practice',
-    license='BSD-3-Clause',
+    license='GPL-3-Clause',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
