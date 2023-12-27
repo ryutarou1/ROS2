@@ -1,12 +1,11 @@
 import rclpy
 from rclpy.node import Node
-from mypkg.srv import Query
+from person_msgs.srv import Query
 
 def main():
     rclpy.init()
     node = Node("listener")
     client = node.create_client(Query, 'query')
-    
     while not client.wait_for_service(timeout_sec=1.0):
         node.get_logger().info('待機中')
 
