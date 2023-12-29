@@ -19,9 +19,9 @@ def main():
     while rclpy.ok():
         rclpy.spin_once(node)
         if future.done():
-            try:
+           try:
                response = future.result()
-            except:
+           except:
                node.get_logger().info('呼び出し失敗')
            else:
                node.get_logger().info("age: {}".format(response.age))
