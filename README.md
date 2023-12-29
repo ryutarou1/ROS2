@@ -10,7 +10,7 @@ ROS2を使用したTalkerとlistenerのプロジェクトです。Talkerは"coun
 git clone https://github.com/ryutarou1/ros2 
 cd 
 cd ~/ros2_ws/src/mypkg/mypkg
-python3 talker.py
+ros2 talker.py
 ```
 上記のコマンドを打つことによりTalkerのプロジェクトを使用することができます。
 
@@ -21,13 +21,13 @@ Talkerのプロジェクトを使用した状態で、Talkerのプロジェク�
 ```python3
 cd 
 cd ~/ros2_ws/src/mypkg/mypkg
-python3 listener.py
+ros2 listener.py
 ```
 上記のコマンドを打つことによりListenerのプロジェクトを使用することができます。
 
 ### 動作例
 ```
-$ python3 listener.py
+$ ros2 listener.py
 [INFO] [1703389372.824852203] [listener]: Listen: 84
 [INFO] [1703389373.306178429] [listener]: Listen: 85
 [INFO] [1703389373.805507318] [listener]: Listen: 86
@@ -36,12 +36,10 @@ $ python3 listener.py
 ```
 
 ## 実行環境
-Python 3
+ros2
 
 ## テスト環境
 Ubuntu 20.04.6 LTS (GNU/Linux 5.10.102.1-microsoft-standard-WSL2 x86_64)
-
-## 必要なソフトウェア
 
 ## ライセンス
 * このソフトウェアパッケージは三条項BSDライセンスのもと、再頒布および使用が許可されています。
