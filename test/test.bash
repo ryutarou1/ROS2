@@ -1,6 +1,6 @@
 #!/bin/bash
-# SPDX-FileCopyrightText: 2023 kanno ryutaro
-# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-FileCopyrightText: 2023 Ryutarou Kanno
+# SPDX-License-Identifier: GPL-3-Clause
 
 dir=~
 [ "$1" != "" ] && dir="$1"
@@ -11,4 +11,4 @@ source $dir/.bashrc
 timeout 10 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
 
 cat /tmp/mypkg.log |
-grep 'Listen: 10'
+grep 'Listen: 10'i
