@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2023 kanno ryutaro
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 import launch
 import launch.actions
 import launch.substitutions
