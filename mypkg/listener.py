@@ -19,17 +19,18 @@ def main():
     while rclpy.ok():
         rclpy.spin_once(node)
         if future.done():
-           try:
-               response = future.result()
-           except:
-               node.get_logger().info('呼び出し失敗')
-           else:
-               node.get_logger().info("age: {}".format(response.age))
+            try:
+                response = future.result()
+            except:
+                node.get_logger().info('呼び出し失敗')
+            else:
+                node.get_logger().info("age: {}".format(response.age))
 
-           break
+            break
 
     node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
-     main()
+    main()
+

@@ -7,7 +7,7 @@ from person_msgs.srv import Query
 
 def cb(request, response):
     if request.name == "ryu":
-        response.age = 20
+        response.age = 21
     else:
         response.age = 255
 
@@ -17,3 +17,4 @@ rclpy.init()
 node = Node("talker")
 srv = node.create_service(Query, "query", cb)
 rclpy.spin(node)
+
