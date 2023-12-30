@@ -36,15 +36,15 @@ $ ros2 run mypkg listener
 [INFO] [1703899750.946671646] [listener]: Listen: 18
 ```
 
-##luanch
+## luanch
 
-###使用方法
+### 使用方法
 ```ros2
 $  ros2 launch mypkg talk_listen.launch.py
 ```
 上記のコマンドを入力することでlunchファイルを使用することができる。
 
-###　動作例
+### 動作例
 ```
 [INFO] [launch]: All log files can be found below /home/...
 [INFO] [launch]: Default logging verbosity is set to INFO
