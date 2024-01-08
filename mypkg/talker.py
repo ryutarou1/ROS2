@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: 2023 kanno ryutaro
-# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: BSD-3-Clause
 
 import rclpy
 from rclpy.node import Node
