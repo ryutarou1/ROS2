@@ -72,5 +72,5 @@ https://ryuichiueda.github.io/my_slides/robosys_2022/lesson7.html#/
 https://ryuichiueda.github.io/my_slides/robosys_2022/lesson8.html#/
 https://ryuichiueda.github.io/my_slides/robosys_2022/lesson10.html#/
 https://ryuichiueda.github.io/my_slides/robosys_2022/lesson11.html#/
-* This Softwere Package allowed Redistribution and Use by GPL 3.0
+* This Softwere Package allowed Redistribution and Use by BSD 3.0
 ©2023 kanno ryutaro
