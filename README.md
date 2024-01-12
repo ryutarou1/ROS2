@@ -45,5 +45,5 @@ Ubuntu 20.04.6 LTS (GNU/Linux 5.10.102.1-microsoft-standard-WSL2 x86_64)
 * このパッケージのコードは、下記のスライド（CC-BY-SA 4.0by Ryuich Ueda)のものを、本人の許可を得て自身の著作したものです。
 https://ryuichiueda.github.io/my_slides/robosys_2022/lesson8.html#/
 https://ryuichiueda.github.io/my_slides/robosys_2022/lesson9.html#/
-* This Softwere Package allowed Redistribution and Use by GPL 3.0
+* This Softwere Package allowed Redistribution and Use by BSD 3.0
 ©2023 kanno ryutaro
