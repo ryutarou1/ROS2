@@ -19,7 +19,7 @@ setup(
     maintainer='ryu',
     maintainer_email='rkanno1014@yahoo.co.jp',
     description='a package for practice',
-    license='GPL-3-Clause',
+    license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
