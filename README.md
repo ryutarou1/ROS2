@@ -38,8 +38,8 @@ ros2 run mypkg listener.py
 ros2
 
 ## テスト環境
-Ubuntu 20.04.6 LTS (GNU/Linux 5.10.102.1-microsoft-standard-WSL2 x86_64)
-Ubuntu 22.04
+* Ubuntu 20.04.6 LTS (GNU/Linux 5.10.102.1-microsoft-standard-WSL2 x86_64)
+* Ubuntu 22.04
 
 ## ライセンス
 * このソフトウェアパッケージは三条項BSDライセンスのもと、再頒布および使用が許可されています。
