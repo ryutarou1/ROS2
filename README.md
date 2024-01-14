@@ -60,7 +60,8 @@ launchファイルを使用することで、talker.pyとlistener.pyの実行を
 ## テスト環境
 * Ubuntu 20.04.6 LTS (GNU/Linux 5.10.102.1-microsoft-standard-WSL2 x86_64)
 * Ubuntu 22.04
-
+* Python
+* Ros2 humble
 ## 著作権およびライセンスについて
 * このソフトウェアパッケージは三条項BSDライセンスのもと、再頒布および使用が許可されています。
 * このパッケージのコードは、下記のスライド（CC-BY-SA 4.0by Ryuich Ueda)のものを、本人の許可を得て自身の著作したものです。
