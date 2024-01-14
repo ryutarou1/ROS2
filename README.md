@@ -1,16 +1,16 @@
 # ROS2 Talker.py and Listener.py 
 
 ## 概要
-ROS2を使用したTalker.pyとlistener.pyのプロジェクトです。Talker.pyは"countup"トピックにInt16メッセージを定期的にパブリッシュし、データを1ずつ増やします。Listener.pyは"countup"というトピックからInt16メッセージを購読し、そのデータをログに表示します。
+ROS2を使用したTalker.pyとlistener.pyのプロジェクトです。Talker.pyは"/countup"トピックにInt16メッセージを定期的にパブリッシュし、データを1ずつ増やします。Listener.pyは"/countup"というトピックからInt16メッセージを購読し、そのデータをログに表示します。
 
 ## Talker.py
 
 ### 実行方法
 ```ros2 
 $ ros2 run mypkg talker.py
-(何も表示されない)
 ```
-上記のコマンドを打つことによりTalker.pyのプロジェクトを使用することができます。
+* 上記のコマンドを打つことによりTalker.pyのプロジェクトを使用することができます。
+* 上記のTalker.pyのプロジェクトを実行しても何も表示されません。
 
 ##  Listener.py
 
@@ -58,10 +58,10 @@ $  ros2 launch mypkg talk_listen.launch.py
 launchファイルを使用することで、talker.pyとlistener.pyの実行を同時に行うことができる.
 
 ## テスト環境
-* Ubuntu 20.04.6 LTS (GNU/Linux 5.10.102.1-microsoft-standard-WSL2 x86_64)
 * Ubuntu 22.04
 * Python
-* Ros2 humble
+* Ros 2 humble
+
 ## 著作権およびライセンスについて
 * このソフトウェアパッケージは三条項BSDライセンスのもと、再頒布および使用が許可されています。
 * このパッケージのコードは、下記のスライド（CC-BY-SA 4.0by Ryuich Ueda)のものを、本人の許可を得て自身の著作したものです。
