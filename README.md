@@ -1,25 +1,25 @@
-# ROS2 Talker.py and Listener.py 
+# ROS2 talker.py and listener.py 
 
 ## 概要
-ROS2を使用したTalker.pyとlistener.pyのプロジェクトです。Talker.pyは"/countup"トピックにInt16メッセージを定期的にパブリッシュし、データを1ずつ増やします。Listener.pyは"/countup"というトピックからInt16メッセージを購読し、そのデータをログに表示します。
+ROS2を使用したtalker.pyとlistener.pyのプロジェクトです。talker.pyは"/countup"トピックにInt16メッセージを定期的にパブリッシュし、データを1ずつ増やします。listener.pyは"/countup"というトピックからInt16メッセージを購読し、そのデータをログに表示します。
 
-## Talker.py
+## talker.py
 
 ### 実行方法
 ```ros2 
 $ ros2 run mypkg talker.py
 ```
-* 上記のコマンドを打つことによりTalker.pyのプロジェクトを使用することができます。
-* 上記のTalker.pyのプロジェクトを実行しても何も表示されません。
+* 上記のコマンドを打つことによりtalker.pyのプロジェクトを使用することができます。
+* 上記のtalker.pyのプロジェクトを実行しても何も表示されません。
 
-##  Listener.py
+##  listener.py
 
 ### 実行方法
-Talker.pyのプロジェクトを使用した状態で、Talker.pyのプロジェクトとは違う新しいウィンドウを開きます。
+talker.pyのプロジェクトを使用した状態で、talker.pyのプロジェクトとは違う新しいウィンドウを開きます。
 ```ros2
 $ ros2 run mypkg listener.py
 ```
-上記のコマンドを打つことによりListener.pyのプロジェクトを使用することができます。
+上記のコマンドを打つことによりlistener.pyのプロジェクトを使用することができます。
 
 ### 動作例
 ```
@@ -34,7 +34,7 @@ $ ros2 run mypkg listener
 [INFO] [1703899750.946671646] [listener]: Listen: 18
 ```
 
-## Talk_listen.lunch.py
+## talk_listen.lunch.py
 
 ### 実行方法
 ```ros2
